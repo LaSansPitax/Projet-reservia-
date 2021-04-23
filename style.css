@@ -1,0 +1,378 @@
+body{
+  font-family: Raleway;
+}
+
+h2 h3{
+  font-weight: bold;
+}
+
+#Logo1{
+  height: 70px;
+  width: 140px;
+  display: block;
+}
+
+
+.MENU{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+header {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+section{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+footer{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+ul{
+  list-style-type: none;
+  }
+
+  nav a:hover{
+  color: #0065FC;
+  border-top: 8px solid #0065FC;
+  padding-top: 15px;
+}
+
+nav li {
+  width: 120px;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.bleu{
+  color: #0065FC;
+  font-weight: bold;
+}
+
+.moteur{
+  position: relative;
+  width: 280px;
+  height: 57px;
+  border: 0.5px solid  #F2F2F2;
+  outline: none;
+  font-weight: bold;
+}
+
+.boutton{
+  outline: none;
+  height: 60px;
+  width: 150px;
+  border: none;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #0065FC;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+form{
+  display: flex;
+  align-items: center;
+}
+
+.fa-map-marker-alt{
+  font-size: 20px;
+  padding: 20px;
+  background-color: #F2F2F2;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.liste-filtres{
+  display: flex;
+  align-items: center;
+}
+
+.Filtres{
+  display: flex;
+  justify-content: space-around;
+  width: 940px;
+}
+
+.Filtres li{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  border: 1px solid  #F2F2F2;
+  border-radius: 35px;
+  padding-left: 66px;
+  padding-right: 18px;
+  padding-bottom: 13px;
+  padding-top: 15px;
+}
+
+.Filtres .fa-money-bill-wave, .Filtres .fa-heart, .Filtres .fa-dog {
+  text-align: center;
+  position: absolute;
+  margin-left: -75px;
+  background-color:  #DEEBFF;
+  color: #0065FC;
+  font-size: 20px;
+  border-radius: 50%;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.fa-child{
+  text-align: center;
+  position: absolute;
+  margin-left: -75px;
+  border-radius: 50%;
+  color: #0065FC;
+  background-color:  #DEEBFF;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.fa-info{
+  text-align: center;
+  font-size: 12px;
+  border: 1px solid #F2F2F2;
+  color:  #0065FC;
+  border-radius: 50%;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 6px;
+  padding-bottom: 7px;
+}
+
+.Intero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 445px;
+}
+
+.vignettes-hebergements{
+  box-shadow: 1px 1px 1px 1px #F2F2F2;
+  position: relative;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  width: 245px;
+  height: 190px;
+  border-radius: 20px;
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+.vignettes-populaires{
+  box-shadow: 1px 1px 1px 1px #F2F2F2;
+  position: relative;
+  width: 360px;
+  height: 155px;
+  border-radius: 20px;
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 45px;
+  margin-bottom: 40px
+}
+
+.images1{
+  object-fit: cover;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 96%;
+  height: 62%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+
+.images2{
+  object-fit: cover;
+  position: absolute;
+  width: 140px;
+  height: 94%;
+  padding-left:4px;
+  padding-top: 5px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.centre{
+  margin-left: 25px;
+}
+
+
+.partie1 h2{
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.blocs figcaption{
+  position: absolute;
+  font-size: 12px;
+  bottom: 8px;
+  left: 12px;
+  line-height: 6px;
+}
+
+.populaires figcaption{
+  position: absolute;
+  left: 165px;
+  line-height: 20px;
+}
+
+.blocs{
+  width: 55%;
+  background-color: #F2F2F2;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.vignettes{
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+
+}
+
+.populaires{
+  width: 25%;
+  border-radius: 20px;
+  background-color: #F2F2F2;
+}
+
+
+.partie1{
+  display: flex;
+  justify-content: space-around;
+}
+ .marge{
+   padding:  25px;
+ }
+ .ratio{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 25px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 10px;
+   margin-bottom: -60px;
+  }
+
+ .grande{
+   object-fit: cover;
+   width: 100%;
+   height: 460px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+ }
+
+ .grande-vignette{
+   box-shadow: 1px 1px 1px 1px #F2F2F2;
+   position: relative;
+   border-radius: 23px;
+   width: 365px;
+   height: 530px;
+   background-color: white;
+   margin-left: 22px;
+   margin-right: 22px;
+ }
+
+ .moyenne{
+   object-fit: cover;
+   width: 100%;
+   height: 230px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+ }
+
+ .moyenne-vignette{
+   box-shadow: 1px 1px 1px 1px #F2F2F2;
+   position: relative;
+   border-radius: 23px;
+   width: 365px;
+   height: 290px;
+   background-color: white;
+   margin-left: 22px;
+   margin-right: 22px;
+ }
+
+ .petite{
+   object-fit: cover;
+   width: 100%;
+   height: 130px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+ }
+
+ .petite-vignette{
+   box-shadow: 1px 1px 1px 1px #F2F2F2;
+   position: relative;
+   border-radius: 23px;
+   width: 365px;
+   height: 190px;
+   background-color: white;
+   margin-left: 22px;
+   margin-right: 22px;
+ }
+
+ .demi{
+   object-fit: cover;
+   width: 100%;
+   height: 180px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+ }
+
+ .demi-vignette{
+   box-shadow: 1px 1px 1px 1px #F2F2F2;
+   position: relative;
+   border-radius: 23px;
+   width: 365px;
+   height: 240px;
+   background-color: white;
+   margin-left: 22px;
+   margin-right: 22px;
+ }
+
+ .act figcaption{
+   font-size: 15px;
+   left: 20px;
+   position: absolute;
+}
+
+ .act{
+   display: flex;
+ }
+
+ .bloc-act{
+   display: flex;
+   flex-flow: column;
+   justify-content: space-between;
+ }
+
+
+.faq{
+  display: flex;
+}
