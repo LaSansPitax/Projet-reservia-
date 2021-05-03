@@ -419,10 +419,76 @@ form{
   flex-direction: row;
 }
 
+
+
+
+@media all and (max-width: 1024px) {
+
+  .blocs {
+      width: 56%;
+  }
+
+  .populaires {
+    width: 39%;
+}
+
+.vignettes-hebergements {
+    width: 206px
+}
+
+.vignettes-populaires {
+    width: 310px;
+}
+
+.grande-vignette {
+    width: 364px;
+}
+
+.moyenne-vignette{
+  width: 174px;
+}
+
+.petite-vignette {
+    width: 173px;
+}
+
+.moyenne-vignette {
+    width: 260;
+}
+
+.demi-vignette {
+    width: 202px;
+}
+
+
+.faq {
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+  margin: 0;
+}
+
+}
+
 @media all and (max-width: 480px) {
 
   header{
     margin: 0;
+  }
+
+  .recherche{
+    outline: none;
+    height: 60px;
+    width: 150px;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #0065FC;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
   }
 
   #Logo1{
@@ -541,7 +607,7 @@ form{
 
 .bleu{
   position: absolute;
-  top: 35px;
+  top: 21px;
   right: 20px;
   font-size: 20px;
 }
@@ -579,13 +645,14 @@ nav{
 
 .menu-tel1{
   position: absolute;
-  left: 36px;
+  left: 75px;
   top: 92px;
 }
+
 .menu-tel2{
   position: absolute;
-  top: 93px;
-  right: 84px;
+  top: 92px;
+  right: 80px;
 }
 
 
@@ -596,56 +663,8 @@ border-bottom: 1px solid #0065FC;
 padding-top: 15px;
 }
 
-
-
-}
-
-@media all and (max-width: 1024px) {
-
-  .blocs {
-      width: 56%;
-  }
-
-  .populaires {
-    width: 39%;
-}
-
-.vignettes-hebergements {
-    width: 206px
-}
-
-.vignettes-populaires {
-    width: 310px;
-}
-
-.grande-vignette {
-    width: 364px;
-}
-
-.moyenne-vignette{
-  width: 174px;
-}
-
-.petite-vignette {
-    width: 173px;
-}
-
-.moyenne-vignette {
-    width: 260;
-}
-
-.demi-vignette {
-    width: 202px;
-}
-
-
-.faq {
-    display: flex;
-    flex-direction: row;
-}
-
-footer{
-  margin: 0;
+.para{
+  margin-top: 65px;
 }
 
 }
