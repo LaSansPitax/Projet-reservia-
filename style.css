@@ -1,4 +1,4 @@
-body{
+ body{
   font-family: Raleway;
 }
 
@@ -128,7 +128,7 @@ form{
   padding-top: 15px;
 }
 
-.Filtres:hover{
+.Filtres li:hover{
   color: #0065FC;
   font-size: 18px;
 }
@@ -198,7 +198,7 @@ form{
 .vignettes-populaires{
   box-shadow: 1px 1px 1px 1px #F2F2F2;
   position: relative;
-  width: 360px;
+  width: 90%;
   height: 155px;
   border-radius: 20px;
   background-color: white;
@@ -347,7 +347,7 @@ form{
    box-shadow: 0 0 20px #F2F2F2;
    position: relative;
    border-radius: 23px;
-   width: 365px;
+   width: 315px;
    height: 290px;
    margin-left: 22px;
    margin-right: 22px;
@@ -365,7 +365,7 @@ form{
    box-shadow: 0 0 20px #F2F2F2;
    position: relative;
    border-radius: 23px;
-   width: 365px;
+   width: 315px;
    height: 190px;
    margin-left: 22px;
    margin-right: 22px;
@@ -383,7 +383,7 @@ form{
    box-shadow:0 0 20px #F2F2F2;
    position: relative;
    border-radius: 23px;
-   width: 365px;
+   width: 280px;
    height: 240px;
    margin-left: 22px;
    margin-right: 22px;
@@ -421,56 +421,123 @@ form{
 
 
 
-
 @media all and (max-width: 1024px) {
 
-  .blocs {
-      width: 56%;
+  #partie1{
+    flex-direction: column-reverse;
+    border: 0;
   }
 
-  .populaires {
-    width: 39%;
-}
+  .Filtres{
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
-.vignettes-hebergements {
-    width: 206px
-}
+  .populaires{
+    width: 100%;
+    border-radius: 0;
+    max-width: none;
+  }
 
-.vignettes-populaires {
-    width: 310px;
-}
+  .blocs{
+    background-color: inherit;
+    width: 100%;
+  }
 
-.grande-vignette {
-    width: 364px;
-}
 
-.moyenne-vignette{
-  width: 174px;
+  .centre{
+    margin: 0;
+  }
+
+  section{
+    margin: 0;
+  }
+
+  .act{
+    flex-wrap: wrap;
+  }
+
+  .faq{
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  .vignettes-hebergements{
+    width: 350px;
+    height: 190px;
+    margin-left: -5px;
+  }
+
+  .images-hebergement{
+    width: 99%;
+  }
+
+  .vignettes-populaires{
+  width: 80%;
+  margin-left: 90px;
 }
 
 .petite-vignette {
-    width: 173px;
-}
-
-.moyenne-vignette {
-    width: 260;
-}
-
-.demi-vignette {
-    width: 202px;
+  width: 365px;
+  height: 190px;
+  margin-left: 0;
 }
 
 
-.faq {
-    display: flex;
-    flex-direction: row;
+.grande-vignette{
+  width: 365px;
+  height: 190px;
+  margin-left: 0;
 }
 
-footer{
-  margin: 0;
+.grande{
+  width: 100%;
+  height: 335px;
+}
+
+.moyenne-vignette{
+  width: 365px;
+  height: 190px;
+  margin-left: 0;
+}
+
+.moyenne{
+  width: 100%;
+  height: 130px;
+}
+
+.demi-vignette{
+  width: 365px;
+  height: 190px;
+  margin-left: 0;
+}
+
+.demi{
+  width: 100%;
+  height: 130px;
 }
 
 }
+
+@media all and (min-width:481px) and (max-width: 768px) {
+
+  #ancre{
+    flex-wrap: wrap;
+   }
+
+   .grande-vignette{
+     width: 365px;
+     height: 190px;
+     margin-left: 0;
+   }
+
+   .grande{
+     height: 150px;
+   }
+
+ }
 
 @media all and (max-width: 480px) {
 
@@ -479,12 +546,13 @@ footer{
   }
 
   .recherche{
-    outline: none;
+    display: initial;
+    position: absolute;
+    right: 30px;
     height: 60px;
-    width: 150px;
+    width: 66px;
     border: none;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-radius: 15px;
     background-color: #0065FC;
     color: white;
     font-size: 20px;
@@ -520,6 +588,7 @@ footer{
 
   .vignettes-populaires{
   width: 95%;
+  margin-left: 0;
 }
 
   .blocs{
@@ -528,7 +597,7 @@ footer{
   }
 
   .vignettes-hebergements{
-    width: 365px;
+    width: 380px;
     height: 190px;
     margin-left: -5px;
   }
@@ -539,6 +608,7 @@ footer{
 
   .act{
     flex-direction: column;
+    margin-left: 30px;
   }
 
   .grande{
@@ -547,19 +617,19 @@ footer{
   }
 
   .petite-vignette {
-    width: 355px;
+    width: 365px;
     height: 190px;
     margin-left: 0;
   }
 
   .grande-vignette{
-    width: 355px;
+    width: 365px;
     height: 190px;
     margin-left: 0;
   }
 
   .moyenne-vignette{
-    width: 355px;
+    width: 365px;
     height: 190px;
     margin-left: 0;
   }
@@ -570,7 +640,7 @@ footer{
   }
 
   .demi-vignette{
-    width: 355px;
+    width: 365px;
     height: 190px;
     margin-left: 0;
   }
@@ -612,9 +682,6 @@ footer{
   font-size: 20px;
 }
 
-nav{
-    border-bottom: 1px solid #F2F2F2;
-}
 
 
 .Filtres .fa-money-bill-wave, .Filtres .fa-heart, .Filtres .fa-dog {
@@ -643,25 +710,26 @@ nav{
   padding-bottom: 17px;
 }
 
+nav{
+  margin-top: 51px;
+  border-bottom: 1px solid  #F2F2F2;
+}
+
+
 .menu-tel1{
   position: absolute;
-  left: 75px;
-  top: 92px;
+  left: 30px;
+  top: 85px;
+  font-size: 18px;
 }
 
 .menu-tel2{
   position: absolute;
-  top: 92px;
+  font-size: 18px;
+  top: 85px;
   right: 80px;
 }
 
-
-nav a:hover{
-color: #0065FC;
-border-top: none;
-border-bottom: 1px solid #0065FC;
-padding-top: 15px;
-}
 
 .para{
   margin-top: 65px;
